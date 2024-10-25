@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple HTML-only website">
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="A simple HTML-only website for roadmap.sh frontend" />
+  <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+  <meta name="author" content="Niko Torić" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap" rel="stylesheet">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <span class="logo">
+      NT
+    </span>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="toggle-theme" onclick="toggleTheme()">
+      <svg id="sun_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+
+      <svg id='moon_icon' style="display: none;" xmlns=" http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="feather feather-sun">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Software Developer</h1>
+      <p>
+        I use tech to build tech.
+      </p>
+    </section>
+
+    <div class="flex-wrapper">
+      <section class="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>HTML Only Portfolio</li>
+          <li>Calculator</li>
+          <li>Quiz App</li>
+          <li>Countdown Timer</li>
+          <li>Product Upcoming Page</li>
+        </ul>
+      </section>
+
+      <section class="work-experience">
+        <h2>Work Experience</h2>
+        <article>
+          <h3>roadmap.sh</h3>
+          <p>Solved all the frontend projects</p>
+          <a href="https://roadmap.sh/u/toricniko">Visit my Profile</a>
+        </article>
+        <article>
+          <h3>Adriatic Osiguranje - Software Developer</h3>
+          <p>April, 2024 to Present</p>
+          <ul>
+            <li>
+              Designing and developing web applications
+            </li>
+          </ul>
+          <p>
+            Skills: Oracle APEX, PL/SQL, JavaScript
+          </p>
+        </article>
+        <article>
+          <h3>Aluflexpack Group - Software Developer</h3>
+          <p>November, 2021 to April 2024</p>
+          <ul>
+            <li>
+              Designing and developing applications
+            </li>
+            <ul>
+              <li>
+                Extracting, transforming and loading data from multiple sources into QlikSense and QlikView applications
+              </li>
+              <li>
+                Generating dashboards for different departments
+              </li>
+              <li>
+                Implementing section access and hidden scripting for the application security
+              </li>
+            </ul>
+            <p>
+              Skills: QlikSense, QlikView, SQL Server
+            </p>
+          </ul>
+          <ul>
+            <li>
+              BI reports
+            </li>
+            <ul>
+              <li>
+                Generating of daily, weekly and monthly reports
+              </li>
+            </ul>
+            <p>
+              Skills: Qlik NPrinting
+            </p>
+          </ul>
+        </article>
+        <article>
+          <h3>Elementary School Šimuna Kožičića Benje - Computer Science Teacher</h3>
+          <p>October, 2020 to November, 2021</p>
+          <ul>
+            <li>
+              Developed engaging lesson plans, hands-on activities, and projects to make learning enjoyable and
+              accessible
+            </li>
+            <li>
+              Created a positive and inclusive environment, monitoring student progress,
+              and organized extracurricular activities to showcase achievements
+            </li>
+            <li>
+              Maintained open communication with parents, providing regular updates on
+              student progress and involving them in their child's computer science education
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <h3>Bachelor's degree in Information Technology - University of Zadar</h3>
+        <p>
+          Ocotober 2017 to October 2020<br />
+          I gained experience in software engineering by analyzing and
+          implementing software systems, developing object-oriented Java
+          programs, and effectively managing data using SQL.
+        </p>
+      </section>
+    </div>
+
+    <aside class="reviews">
+      <h2>Feedback from Peers</h2>
+      <div class="feedback-wrapper">
+        <blockquote>
+          <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+          <footer>Jane Doe, Assistant Professor</footer>
+        </blockquote>
+        <blockquote>
+          <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+          <footer>Jane Doe, Assistant Professor</footer>
+        </blockquote>
+        <blockquote>
+          <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+          <footer>Jane Doe, Assistant Professor</footer>
+        </blockquote>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; all rights reserved 2024</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
