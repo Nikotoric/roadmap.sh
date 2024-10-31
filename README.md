@@ -3,5 +3,6 @@ This repository contains frontend projects built following the [roadmap.hr](http
 
 ## Projects List
 
-[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)
-[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+[Single Page HTML CV Project](https://roadmap.sh/projects/single-page-cv)<br/>
+[Basic HTML Website](https://roadmap.sh/projects/basic-html-website)<br/>
+[Personal Portfolio](https://roadmap.sh/projects/portfolio-website)<br/>
